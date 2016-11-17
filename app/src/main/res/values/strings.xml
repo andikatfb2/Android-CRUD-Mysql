@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Bawel.01</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="spinner">Jenis Kelamin</string>
+    <string-array name="gender_arrays">
+        <item>Laki-Laki</item>
+        <item>Perempuan</item>
+    </string-array>
+    <string-array name="pendidikan_arrays">
+        <item>SD</item>
+        <item>SMP</item>
+        <item>SMA/Sederajat</item>
+        <item>D1</item>
+        <item>D2</item>
+        <item>D3</item>
+        <item>S1</item>
+        <item>S2</item>
+        <item>Lainya</item>
+    </string-array>
+    <string-array name="jabatan_arrays">
+        <item>Administrasi</item>
+        <item>Satpam</item>
+        <item>Buruh Tetap</item>
+        <item>Driver</item>
+        <item>Lainya</item>
+    </string-array>
+</resources>

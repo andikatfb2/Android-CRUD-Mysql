@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1a75ff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="RINCIAN"
+            android:id="@+id/textView10"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#FFF"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView10"
+            android:id="@+id/linearLayout2"
+            android:layout_above="@+id/linearLayout3"
+            android:layout_toStartOf="@+id/textView10"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/id"
+                android:background="#4d94ff">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="ID"
+                    android:id="@+id/textView11"
+                    android:layout_alignBottom="@+id/linearLayout2"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#cccccc"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="1dp"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="ID"
+                    android:id="@+id/view_id"
+                    android:layout_alignBottom="@+id/linearLayout2"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#fff"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nama"
+                android:background="#3385ff">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Nama"
+                    android:id="@+id/textView12"
+                    android:layout_alignBottom="@+id/linearLayout2"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#cccccc"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Nama"
+                    android:id="@+id/view_nama"
+                    android:layout_alignBottom="@+id/linearLayout2"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#fff"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#4d94ff">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Jabatan"
+                    android:id="@+id/textView13"
+                    android:layout_alignBottom="@+id/linearLayout2"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#cccccc"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Jabatan"
+                    android:id="@+id/view_jabatan"
+                    android:layout_alignBottom="@+id/linearLayout2"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#fff"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#3385ff">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Nilai Kehadiran"
+                    android:id="@+id/textView14"
+                    android:layout_alignBottom="@+id/linearLayout2"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#cccccc"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="hadir"
+                    android:id="@+id/view_kehadiran"
+                    android:layout_alignBottom="@+id/linearLayout2"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#fff"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#4d94ff">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Nilai Penunjang"
+                    android:id="@+id/textView15"
+                    android:layout_alignBottom="@+id/linearLayout2"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#cccccc"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="penunjang"
+                    android:id="@+id/view_penunjang"
+                    android:layout_alignBottom="@+id/linearLayout2"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#fff"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#3385ff">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Nilai Penilaian Umum"
+                    android:id="@+id/textView16"
+                    android:layout_alignBottom="@+id/linearLayout2"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#cccccc"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="umum"
+                    android:id="@+id/view_p_umum"
+                    android:layout_alignBottom="@+id/linearLayout2"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#fff"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#4d94ff">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Nilai Pengembangan Diri"
+                    android:id="@+id/textView17"
+                    android:layout_alignBottom="@+id/linearLayout2"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#cccccc"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="p_diri"
+                    android:id="@+id/view_p_diri"
+                    android:layout_alignBottom="@+id/linearLayout2"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#fff"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#3385ff">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Hasil Akhir"
+                    android:id="@+id/textView18"
+                    android:layout_alignBottom="@+id/linearLayout2"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#cccccc"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="hasil"
+                    android:id="@+id/view_hasil"
+                    android:layout_alignBottom="@+id/linearLayout2"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#fff"
+                    android:textSize="18dp"
+                    android:layout_marginBottom="5dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/linearLayout3"
+            android:weightSum="1"
+            android:background="#FFF">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:text="DELETE"
+                android:id="@+id/btn_hasil_delete"
+                android:layout_weight="1.06"
+                android:background="#00000000"
+                android:backgroundTint="#f2f2f2" />
+
+            <Button
+                android:layout_width="209dp"
+                android:layout_height="44dp"
+                android:text="BACK"
+                android:id="@+id/btn_hasil_back"
+                android:background="#00000000"
+                android:backgroundTint="#f2f2f2" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/SAS"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView2"
+                android:src="@drawable/logo1"
+                android:layout_gravity="top"
+                android:layout_marginTop="-26dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_perhitunagn_id"
+                android:hint="ID"
+                android:enabled="false" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_perhitunagn_nama"
+                android:hint="Nama Karyawan"
+                android:enabled="false" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_perhitunagn_jabatan"
+                android:hint="Jabatan"
+                android:enabled="false" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_perhitunagn_kehadiran"
+                android:inputType="numberDecimal"
+                android:hint="Kehadiran (Input nilai 0-1)" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_perhitunagn_penunjang"
+                android:inputType="numberDecimal"
+                android:hint="Penunjang (Input nilai 0-1)" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_perhitunagn_penilaianUmum"
+                android:inputType="numberDecimal"
+                android:hint="Penilaian Umum (Input nilai 0-1)" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_perhitunagn_pengembanganDiri"
+                android:inputType="numberDecimal"
+                android:hint="Pengembangan Diri (Input nilai 0-1)"
+                android:singleLine="true"
+                android:phoneNumber="false" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_perhitunagn_hasil"
+                android:inputType="numberDecimal"
+                android:hint="Hasil"
+                android:enabled="false"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:background="#4d79ff"
+            android:gravity="bottom|end"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="PROCCESS"
+                android:id="@+id/btn_perhitungan_proses"
+                android:background="#00000000"
+                android:textColor="#fff"
+                android:layout_weight="0.31"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="SAVE"
+                android:id="@+id/btn_perhitungan_simpan"
+                android:background="#00000000"
+                android:textColor="#fff"
+                android:layout_weight="0.35"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="BACK"
+                android:id="@+id/btn_perhitungan_kembali"
+                android:background="#00000000"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_weight="0.32" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

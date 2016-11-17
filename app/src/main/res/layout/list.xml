@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:background="#4d79ff"
+        android:gravity="center_horizontal">
+
+        <ListView
+            android:layout_width="358dp"
+            android:layout_height="310dp"
+            android:id="@+id/listViewRead"
+            android:layout_gravity="center_vertical"
+            android:textAlignment="gravity"
+            android:visibility="visible"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#fff"
+            android:endColor="#f6fafc"
+            android:startColor="#c9dbe4"
+            android:textSize="18dp"
+            android:layout_above="@+id/button_kembaliHasilPerhitungan"
+            android:contextClickable="false"
+            android:divider="#000"
+            android:dividerHeight="0.5dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/linearLayout11" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="DATA KARYAWAN"
+            android:id="@+id/textView6"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:text="REFRESH"
+            android:id="@+id/button_REFRESH"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#FFF"
+            android:background="#00000000" />
+
+        <Button
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:text="BACK"
+            android:id="@+id/button_kembaliHasilPerhitungan"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:background="#00000000"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/textView6"
+            android:id="@+id/linearLayout11"
+            android:layout_below="@+id/textView6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#4d79dc">
+
+            <SearchView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/searchView"
+                android:layout_alignTop="@+id/textView6"
+                android:layout_alignRight="@+id/textView6"
+                android:layout_alignEnd="@+id/textView6"
+                android:queryHint="Search... " />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

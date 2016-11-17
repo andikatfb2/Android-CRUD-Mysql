@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.clay.Bawel01" >
+    /*
+    untuk akses internet
+    */
+     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        // untuk memanggil class utama
+        <activity
+            android:name="com.example.clay.Bawel01.Login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Menu_utama"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".Add_karyawan"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".List_karyawan"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".Detile_keryawan"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".List_karyawan2"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".Perhitungan"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".List_Hasil"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".Detail_Hasil"
+            android:label="@string/app_name">
+        </activity>
+
+
+    </application>
+
+</manifest>

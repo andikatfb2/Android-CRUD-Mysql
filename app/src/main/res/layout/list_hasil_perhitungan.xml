@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:background="#4d79ff"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="HASIL PERHITUNGAN"
+            android:id="@+id/textView6"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BACK"
+            android:id="@+id/button_kembaliHasilPerhitungan"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:background="#00000000" />
+
+        <ListView
+            android:layout_width="372dp"
+            android:layout_height="match_parent"
+            android:id="@+id/list_hasil_perhitungan"
+            android:layout_gravity="center_vertical"
+            android:textAlignment="gravity"
+            android:textColor="#fff"
+            android:endColor="#f6fafc"
+            android:startColor="#c9dbe4"
+            android:visibility="visible"
+            android:textSize="18dip"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/textView6"
+            android:layout_alignParentTop="false"
+            android:dividerHeight="0.5dp"
+            android:divider="#000"
+            android:background="#fff"
+            android:layout_above="@+id/button_kembaliHasilPerhitungan" />
+    </RelativeLayout>
+
+</LinearLayout>
